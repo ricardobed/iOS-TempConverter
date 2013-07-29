@@ -13,8 +13,7 @@
 @property (nonatomic, weak) IBOutlet UITextField *fahTextField;
 @property (nonatomic, weak) IBOutlet UITextField *celTextField;
 
-@property (assign, nonatomic) BOOL fahDoneButton;
-@property (assign, nonatomic) BOOL celDoneButton;
+@property (assign, nonatomic) BOOL doneButton;
 
 
 - (IBAction)convertButton;
